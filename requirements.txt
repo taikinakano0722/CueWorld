@@ -7,3 +7,6 @@ pillow==12.0.0
 opencv-python-headless==4.11.0.86
 imageio==2.37.0
 imageio-ffmpeg==0.6.0
+# subtasks_for_cueworld のテストとデモ。イメージを作り直しても消えないようにここへ置く。
+pytest==8.3.4
+matplotlib==3.8.4
