@@ -8,6 +8,7 @@ RUN apt-get update \
     libegl1 \
     libgles2 \
     libgl1-mesa-dri \
+    fonts-ipafont-gothic \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt /tmp/requirements.txt
